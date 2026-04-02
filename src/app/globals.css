@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+/* ── Design System: NOH Plastic Surgery — Editorial Clinic Style ── */
+
+@theme inline {
+  --color-warm-white: #faf8f5;
+  --color-cream: #f5f0e8;
+  --color-gold: #c9a84c;
+  --color-gold-light: #d4b65e;
+  --color-charcoal: #2d2d2d;
+  --color-light-gray: #999;
+  --color-border: #e8e4de;
+  --font-sans: var(--font-noto-sans-kr);
+  --font-serif: var(--font-playfair-display);
+}
+
+/* ── Base ── */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--color-charcoal);
+  font-family: var(--font-noto-sans-kr), "Noto Sans KR", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.7;
+  letter-spacing: -0.01em;
+  overflow-x: hidden;
+}
+
+/* ── Typography ── */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+
+p {
+  color: #555;
+  font-weight: 300;
+}
+
+/* ── Scrollbar (thin, subtle) ── */
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+
+/* ── Selection ── */
+
+::selection {
+  background-color: var(--color-gold);
+  color: #ffffff;
+}
+
+/* ── Links reset ── */
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s ease;
+}
+
+/* ── Image defaults ── */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ── Focus visible for accessibility ── */
+
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
