@@ -252,10 +252,7 @@ export default function DoctorSection() {
                 &ldquo;
               </span>
               <p
-                className="-mt-3 text-sm leading-relaxed text-charcoal/70 italic"
-                style={{
-                  fontFamily: "var(--font-serif), 'Playfair Display', serif",
-                }}
+                className="-mt-3 text-sm font-bold leading-relaxed text-charcoal/70"
               >
                 수술은 기술이 아니라 철학입니다. 환자의 원래 아름다움을 살려
                 자연스럽게, 그리고 안전하게.

@@ -371,10 +371,7 @@ export default function ContactSection() {
             </p>
 
             <p
-              className="mt-10 text-lg leading-relaxed text-charcoal/50 italic"
-              style={{
-                fontFamily: "var(--font-serif), 'Playfair Display', serif",
-              }}
+              className="mt-10 text-lg font-bold leading-relaxed text-charcoal/50"
             >
               당신의 아름다움이
               <br />

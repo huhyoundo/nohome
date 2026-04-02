@@ -129,11 +129,7 @@ export default function HeroSection() {
               initial="hidden"
               animate="visible"
               variants={wordContainer}
-              className="mb-2 flex flex-wrap gap-x-2 text-3xl leading-tight text-charcoal"
-              style={{
-                fontFamily: "'Playfair Display', 'Noto Serif KR', serif",
-                fontStyle: "italic",
-              }}
+              className="mb-2 flex flex-wrap gap-x-2 text-3xl font-bold leading-tight text-charcoal"
             >
               {titleWords.map((word) => (
                 <span key={word} className="inline-block overflow-hidden">
@@ -219,11 +215,7 @@ export default function HeroSection() {
               initial="hidden"
               animate="visible"
               variants={wordContainer}
-              className="mb-3 flex flex-wrap gap-x-3 text-4xl leading-snug text-charcoal lg:text-5xl xl:text-6xl"
-              style={{
-                fontFamily: "'Playfair Display', 'Noto Serif KR', serif",
-                fontStyle: "italic",
-              }}
+              className="mb-3 flex flex-wrap gap-x-3 text-4xl font-bold leading-snug text-charcoal lg:text-5xl xl:text-6xl"
             >
               {titleWords.map((word) => (
                 <span key={word} className="inline-block overflow-hidden">
